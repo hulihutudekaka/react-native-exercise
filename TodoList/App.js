@@ -18,7 +18,8 @@ export default class APP extends Component {
     constructor(props){
       super(props)
       this.state = {
-        selectedTab: 'TASKS'
+        selectedTab: 'TASKS',
+        isChecked: false
       }
     }
 
